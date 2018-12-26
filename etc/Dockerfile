@@ -41,4 +41,5 @@ RUN grin server config && \
 
 EXPOSE 13413 13414 13415 13416
 
-ENTRYPOINT ["grin", "server", "run"]
+ENTRYPOINT ["grin"]
+CMD ["server", "run"]
